@@ -140,7 +140,7 @@ a{
     font-size: 15px;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 767px) { 
     .article{
         overflow: hidden;
         height: auto;
