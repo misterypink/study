@@ -56,7 +56,6 @@ a{
 }
 
 .header-scroll-box{
-    cursor: pointer;
     width: 80%;
     height: auto;
     border: solid 1px;
@@ -82,13 +81,23 @@ a{
     width: 92%;
     height: auto;
     margin: 0 4%;
-    padding-top: 7%;
+}
+
+.content-box p{
+    text-align: right;
+    width: 92%;
+    margin: 0 4%;
+}
+
+.content-box-title{
+    margin: 5% 0 5% 5%;
+    font-size: 30px;
 }
 
 .content{
     float: left;
     width: 40%;
-    height: 450px;
+    height: 500px;
     margin: 0 5%;
 }
 
@@ -101,14 +110,14 @@ a{
 }
 
 .content-img{
-    width: 100%;
+    width: auto;
     height: auto;
     margin-bottom: 3%;
 }
 
 .max-img{
-        height: auto;
-        max-height: 300px;
+    height: 300px;
+    border-radius: 2%;
 }
 
 .content-text{
@@ -119,6 +128,54 @@ a{
     margin-bottom: 7%;
 }
 
+.post-title{
+    width: 90%;
+    font-size: 42px;
+    margin: 5%;
+}
+
+.post-content{
+    width: 90%;
+    margin: 0 5%;
+    font-size: 20px;
+    margin: 0% 5% 5% 5%;
+}
+
+.post-content-img{
+    display: block;
+    margin: 50px auto 50px auto;
+    width: 500px;
+    height: 300px;
+    font-size: 12px
+}
+
+.profile-box{
+    display: block;
+    width: 420px;
+    height: auto;
+    margin: 100px auto;
+}
+
+.profile-box img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+ 
+.profile-text{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    margin-left: 20px;
+}
+
+.profile-text p{
+    text-align: left;
+    font-size: 20px;
+}
+
 .footer{
     clear: both;
     width: 100%;
@@ -127,20 +184,13 @@ a{
     color: black;
 }
 
-.contact{
+.footer p{
+    font-size: 15px;
     width: 97%;
     margin-left: 3%;
 }
 
-.contact h1{
-    font-size: 30px;
-} 
-
-.contact p{
-    font-size: 15px;
-}
-
-@media screen and (max-width: 1200px) { 
+@media screen and (max-width: 1000px) { 
     .article{
         overflow: hidden;
         height: auto;
@@ -151,26 +201,30 @@ a{
     .content-box{
         overflow: hidden;
         background-color: white;
-        width: 95%;
+        width: 92%;
         height: auto;
-        margin: 0 2.5%;
-        padding-top: 7%;
+        margin: 0 4% 0 4%;
     }
-
+    
+    .content-box-title{
+        margin: 5% 0 5% 5%;
+        font-size: 30px;
+    }
+    
     .content{
         float: left;
         width: 90%;
         height: auto;
-        margin: 0 5%;
+        margin: 0% 5% 5% 5%;
     }
 
     .content-title{
         float: left;
-        width: 50%;
+        width: 44%;
         height: auto;
         text-align: center;
-        font-size: 20px;
-        margin-bottom: 3%;
+        font-size: 30px;
+        margin: 0 3% 3% 3%;
     }
 
     .content-img{
@@ -181,22 +235,19 @@ a{
     }
     
     .max-img{
-        height: auto;
-        max-height: 250px;
+        height: 230px;
     }
 
     .content-text{
         float: left;
-        width: 50%;
+        width: 44%;
         text-align: center;
         height: auto;
         font-size: 15px;
-        margin-bottom: 7%;
+        margin: 0 3% 7% 3%;
     }
 
 }
-
-
 
 
 
